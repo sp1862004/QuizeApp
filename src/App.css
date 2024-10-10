@@ -1,0 +1,497 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+/* QuizList.css */
+
+.animated {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.container {
+  font-family: 'Arial', sans-serif; /* Change to any font you like */
+}
+
+.timer {
+  font-size: 20px;
+  color: #ff0000; /* Red color for the timer */
+}
+
+.question-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #007bff; /* Blue border for question container */
+  border-radius: 8px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.options-container {
+  margin-top: 10px;
+}
+
+.option {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+h1, h2, h3 {
+  color: #007bff; /* Blue color for headers */
+}
+
+
+/* Navbar.css */
+
+/* Logo animation */
+.animated-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.animated-logo:hover {
+  transform: scale(1.1);
+  color: #ffc107;
+}
+
+/* Links animation */
+.animated-links .nav-link {
+  position: relative;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.animated-links .nav-link:hover {
+  color: #ffc107;
+}
+
+/* Underline effect on hover */
+.animated-links .nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffc107;
+  transition: width 0.3s ease;
+}
+
+.animated-links .nav-link:hover::before {
+  width: 100%;
+}
+
+/* Responsive toggler animation */
+.navbar-toggler {
+  border-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler:hover {
+  transform: rotate(90deg);
+}
+
+/* Navbar background transition */
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: #343a40;
+}
+
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-text h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-text p {
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icons li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.social-icons .social-icon {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social-icons .social-icon:hover {
+  color: #17a2b8;
+  transform: translateY(-5px);
+}
+
+.animated-footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-footer::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(130deg, rgba(23, 162, 184, 0.4), rgba(52, 58, 64, 0.6));
+  transition: all 0.4s ease-in-out;
+  transform: translateX(-50%) rotate(5deg);
+  opacity: 0.5;
+}
+
+.animated-footer:hover::before {
+  transform: translateX(-50%) rotate(0deg);
+  opacity: 0.7;
+}
+
+.text-center p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+
+.about-page {
+  background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+  padding: 50px 0;
+  border-radius: 10px;
+}
+
+/* Animated title */
+.animated-title {
+  font-size: 3rem;
+  font-weight: bold;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* Team Images */
+.team-img {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s ease;
+}
+
+.team-img:hover {
+  transform: scale(1.1);
+}
+
+/* Animation classes */
+.animated {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+/* Responsive Adjustments using Bootstrap */
+@media (max-width: 768px) {
+  .team-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .animated-title {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .animated-title {
+    font-size: 2rem;
+  }
+}
+
+
+.container {
+  padding: 2rem;
+}
+
+.animated-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  animation: fadeInDown 1s ease-out;
+}
+
+.contact-card {
+  background-color: #f1faff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.animated-input {
+  border: 2px solid #007bff;
+  transition: border-color 0.3s ease;
+}
+
+.animated-input:focus {
+  border-color: #28a745;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.info-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h4 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+.score-page {
+  padding: 2rem;
+}
+
+.animated-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #007bff;
+  animation: fadeInDown 1s ease-out;
+}
+
+.motivational-quote {
+  font-size: 1.5rem;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.answers ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.answers li {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.answers li:hover {
+  background-color: #e9ecef;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* LoginPage.css */
+.login-container {
+  background-color: #f8f9fa; /* Light background */
+  animation: fadeIn 1s;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 8px;
+  animation: slideIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

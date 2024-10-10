@@ -1,0 +1,170 @@
+{
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "HTML Quiz",
+        "description": "Test your knowledge of HTML.",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "What does HTML stand for?",
+            "options": ["Hyper Text Markup Language", "High Text Markup Language", "Hyper Tabular Markup Language", "None of the above"],
+            "answer": "Hyper Text Markup Language"
+          },
+          {
+            "question": "Which of the following is a block-level element?",
+            "options": ["<span>", "<div>", "<a>", "<img>"],
+            "answer": "<div>"
+          },
+          {
+            "question": "What is the correct HTML element for inserting a line break?",
+            "options": ["<br>", "<break>", "<lb>", "<line>"],
+            "answer": "<br>"
+          },
+          {
+            "question": "Which HTML attribute is used to define inline styles?",
+            "options": ["style", "font", "class", "styles"],
+            "answer": "style"
+          },
+          {
+            "question": "What is the purpose of the <head> tag in HTML?",
+            "options": ["To display the content", "To contain metadata", "To create a navigation menu", "To format text"],
+            "answer": "To contain metadata"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "CSS Quiz",
+        "description": "Test your knowledge of CSS.",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "What does CSS stand for?",
+            "options": ["Colorful Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
+            "answer": "Cascading Style Sheets"
+          },
+          {
+            "question": "Which property is used to change the background color?",
+            "options": ["bgcolor", "color", "background-color", "background"],
+            "answer": "background-color"
+          },
+          {
+            "question": "How do you select an element with id 'demo'?",
+            "options": ["#demo", ".demo", "demo", "demo()"],
+            "answer": "#demo"
+          },
+          {
+            "question": "Which of the following is a valid CSS comment?",
+            "options": ["// this is a comment", "/* this is a comment */", "<!-- this is a comment -->", "' this is a comment"],
+            "answer": "/* this is a comment */"
+          },
+          {
+            "question": "What is the default value of the position property?",
+            "options": ["static", "relative", "absolute", "fixed"],
+            "answer": "static"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "React Quiz",
+        "description": "Test your knowledge of React.",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "What is React?",
+            "options": ["A JavaScript framework", "A JavaScript library", "A CSS library", "A server-side framework"],
+            "answer": "A JavaScript library"
+          },
+          {
+            "question": "How do you create a React component?",
+            "options": ["function MyComponent()", "class MyComponent()", "const MyComponent = () => {}", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "What is the purpose of state in React?",
+            "options": ["To store data", "To store functions", "To render HTML", "To create CSS styles"],
+            "answer": "To store data"
+          },
+          {
+            "question": "What is a prop in React?",
+            "options": ["A function", "A component", "An object", "An attribute passed to a component"],
+            "answer": "An attribute passed to a component"
+          },
+          {
+            "question": "What is JSX?",
+            "options": ["A JavaScript extension", "A syntax extension for React", "A CSS preprocessor", "None of the above"],
+            "answer": "A syntax extension for React"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Node.js Quiz",
+        "description": "Test your knowledge of Node.js.",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "What is Node.js?",
+            "options": ["A JavaScript runtime", "A JavaScript framework", "A database", "A CSS library"],
+            "answer": "A JavaScript runtime"
+          },
+          {
+            "question": "What is the default port for a Node.js server?",
+            "options": ["3000", "8080", "5000", "80"],
+            "answer": "3000"
+          },
+          {
+            "question": "What does npm stand for?",
+            "options": ["Node Package Manager", "Node Project Manager", "Node Process Manager", "None of the above"],
+            "answer": "Node Package Manager"
+          },
+          {
+            "question": "Which of the following is a core module in Node.js?",
+            "options": ["http", "express", "mongoose", "react"],
+            "answer": "http"
+          },
+          {
+            "question": "How do you create a server in Node.js?",
+            "options": ["http.createServer()", "http.create()", "server.create()", "createServer()"],
+            "answer": "http.createServer()"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Bootstrap Quiz",
+        "description": "Test your knowledge of Bootstrap.",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "What is Bootstrap?",
+            "options": ["A CSS framework", "A JavaScript library", "A PHP framework", "A design tool"],
+            "answer": "A CSS framework"
+          },
+          {
+            "question": "Which class is used to create a button in Bootstrap?",
+            "options": ["btn", "button", "btn-button", "button-class"],
+            "answer": "btn"
+          },
+          {
+            "question": "What is the grid system in Bootstrap?",
+            "options": ["A system for layout", "A system for animations", "A system for colors", "None of the above"],
+            "answer": "A system for layout"
+          },
+          {
+            "question": "How do you create a modal in Bootstrap?",
+            "options": ["Using .modal class", "Using .dialog class", "Using .popup class", "Using .overlay class"],
+            "answer": "Using .modal class"
+          },
+          {
+            "question": "What is the purpose of the container class in Bootstrap?",
+            "options": ["To center the content", "To add padding", "To create a layout", "All of the above"],
+            "answer": "All of the above"
+          }
+        ]
+      }
+    ]
+  }
+  
