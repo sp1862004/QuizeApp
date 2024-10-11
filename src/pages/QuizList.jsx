@@ -73,9 +73,9 @@ const QuizList = () => {
           />
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-6 mt-1">
           <select
-            className="form-control"
+            className="form-control "
             value={category}
             onChange={(e) => setCategory(e.target.value)}
           >
